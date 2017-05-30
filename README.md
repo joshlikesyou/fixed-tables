@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## What it's all about
-A quick little table made with the [react-fixed-table](https://facebook.github.io/fixed-data-table/) component.
+A table made with the [react-fixed-table](https://facebook.github.io/fixed-data-table/) component.
 The fixed part of the table comes from the ads data and the scrollable portion comes from ad_metrics.
 Ad_metrics is joined on ads at remote_id. Both sections show remote_id to show that it is sorting properly.
 
@@ -25,17 +25,16 @@ sort_ad_metrics = () => {
 ## Get Started
 
 Clone this repository onto your computer and install the dependencies
-with
 ```
 > npm install
 ```
 
-Start the server with
+Start the server
 ```
 > npm start
 ```
 
-Start the tests with
+Start the tests
 ```
 > npm test
 ```

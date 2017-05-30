@@ -33,7 +33,6 @@ class MetricCell extends Component {
 
 class App extends Component {
 	constructor(props) {
-    console.log(ad_metrics)
 		super(props);
     const sorted_metrics =[]
     this.state = {
@@ -41,7 +40,7 @@ class App extends Component {
     }
 	}
 
-  sort_ad_metrics = () => {
+  sortAdMetrics = () => {
     ads.map((ad, index) => {
       const remote_id = ad.remote_id;
       ad_metrics["rows"].map((ad_m) => {
@@ -53,7 +52,7 @@ class App extends Component {
   };
 
 	render() {
-    this.sort_ad_metrics();
+    this.sortAdMetrics();
 	  return (
 	    <div>
       <h1> Fixed Data Table </h1>

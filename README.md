@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## What it's all about
 A quick little table made with the [react-fixed-table](https://facebook.github.io/fixed-data-table/) component.
 The fixed part of the table comes from the ads data and the scrollable portion comes from ad_metrics.
-ad_metrics is joined on ads at remote_id. Both sections show remote_id to show that it is sorting properly.
+Ad_metrics is joined on ads at remote_id. Both sections show remote_id to show that it is sorting properly.
 
 The sort is accomplished by the function below in the apps component.
 
@@ -27,15 +27,15 @@ sort_ad_metrics = () => {
 Clone this repository onto your computer and install the dependencies
 with
 ```
-npm install
+> npm install
 ```
 
 Start the server with
 ```
-npm start
+> npm start
 ```
 
 Start the tests with
 ```
-npm test
+> npm test
 ```

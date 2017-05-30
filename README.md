@@ -29,7 +29,7 @@ Clone this repository onto your computer to install the dependencies
 > npm install
 ```
 
-Start the server
+Start the server, runs on localhost:3000
 ```
 > npm start
 ```

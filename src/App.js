@@ -142,7 +142,7 @@ class App extends Component {
 								data={this.state.sorted_metrics}
 	              field="cost_per_inline_link_click"
 						/>}
-						width={150}
+						width={180}
 					/>
 					<Column
 						header={<Cell> Actions:Goals </Cell>}
@@ -158,7 +158,7 @@ class App extends Component {
 								data={this.state.sorted_metrics}
 	              field="actions:link_click"
 						/>}
-						width={150}
+						width={160}
 					/>
 					<Column
 						header={<Cell> Cost Per Action Type:Cost Per Goal </Cell>}
@@ -166,7 +166,7 @@ class App extends Component {
 								data={this.state.sorted_metrics}
 	              field="cost_per_action_type:cost_per_goal"
 						/>}
-						width={150}
+						width={290}
 					/>
 					<Column
 						header={<Cell> Offsite Conversion </Cell>}
@@ -174,7 +174,7 @@ class App extends Component {
 								data={this.state.sorted_metrics}
 	              field="actions:offsite_conversion"
 						/>}
-						width={150}
+						width={165}
 					/>
 				</Table>
 	    </div>

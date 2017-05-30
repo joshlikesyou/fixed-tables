@@ -79,6 +79,7 @@ class App extends Component {
                 field="remote_id"
             />}
             width={150}
+            fixed={true}
           />
           <Column
             header={<Cell> Remote Id </Cell>}

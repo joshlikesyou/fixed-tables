@@ -29,7 +29,7 @@ sort_ad_metrics = () => {
         this.state.sorted_metrics.push(ad_m);
       }
     });
-  });
+  });  
 };
 ```
 
